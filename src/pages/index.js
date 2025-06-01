@@ -27,8 +27,8 @@ export default function Home() {
               <p class="text-sm mt-2 text-start">Scan QR Code</p>
             </div>
 
-            <div class="relative ms-[-20%]">
-              <Image src="https://i.ibb.co.com/07krqFF/Cuplikan-layar-2025-04-17-204821.png" width={300} height={300} />
+            <div class="relative ms-[-20%] mt-[10%]">
+              <Image src="https://i.ibb.co.com/07krqFF/Cuplikan-layar-2025-04-17-204821.png" width={400} height={400} />
             </div>
           </main>
         </div>
