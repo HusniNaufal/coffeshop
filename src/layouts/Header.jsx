@@ -11,7 +11,7 @@ const HeaderComponent = () => {
           <Link href={"/about"}>About</Link>
           <Link href={"/menu"}>Menu</Link>
           <Link href={"/location"}>Lokasi</Link>
-          <Link href={"/contact"} className="font-bold text-cci-green">
+          <Link href={"https://fore.coffee"} className="font-bold text-cci-green">
             Contact
           </Link>
         </nav>

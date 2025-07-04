@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["static.fore.coffee", "images.unsplash.com", "i.ibb.co.com", "developer.apple.com", "upload.wikimedia.org", "api.qrserver.com"],
+    domains: ["fore.coffe", "static.fore.coffee", "images.unsplash.com", "i.ibb.co.com", "developer.apple.com", "upload.wikimedia.org", "api.qrserver.com"],
   },
 };
 

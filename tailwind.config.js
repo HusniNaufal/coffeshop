@@ -10,6 +10,7 @@ module.exports = {
         bgfore: `url('https://fore.coffee/wp-content/uploads/2023/10/Frame-48096650.png')`,
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        bgabout: `url('https://fore.coffee/wp-content/uploads/2023/09/ourstory2.png')`,
       },
       colors: {
         "cci-blue": "#427bb1",
