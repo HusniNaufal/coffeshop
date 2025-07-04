@@ -3,7 +3,7 @@ import Mainlayout from "@/layouts/Mainlayout";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-export default function lihatSemuaAmericano() {
+export default function LihatSemuaAmericano() {
   const [Data, setData] = useState([]);
   function getData() {
     axios.get("/api/coffee").then((ress) => {

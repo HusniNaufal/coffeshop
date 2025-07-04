@@ -3,7 +3,7 @@ import Mainlayout from "@/layouts/Mainlayout";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-export default function lihatSemuaAmericano() {
+export default function lihatSemuaMilky() {
   const [Data, setData] = useState([]);
   function getData() {
     axios.get("/api/coffee").then((ress) => {
@@ -14,7 +14,7 @@ export default function lihatSemuaAmericano() {
 
   useEffect(() => {
     getData();
-    document.title = "Semua Menu Americano";
+    document.title = "Semua Menu Milky";
     const link = document.querySelector("link[rel*='icon']") || document.createElement("link");
     link.type = "image/png";
     link.rel = "icon";
