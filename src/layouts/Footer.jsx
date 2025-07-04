@@ -1,7 +1,7 @@
 const FooterComponent = () => {
   return (
     <>
-      <footer className="border-t-2 text-center p-4 text-red-900">Copyrigt@2025, All reserve</footer>
+      <footer className="border-t-2 text-center p-4 text-red-900 mt-[5%]">Copyrigt@2025, All reserve</footer>
     </>
   );
 };
